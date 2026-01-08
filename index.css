@@ -28,8 +28,8 @@ html {
 }
 .يوميات-حزمبول img {
     
-    width: 540px;
-    height: 540px;
+    width: 400px;
+    height: 610px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -105,9 +105,10 @@ html {
     transform: translateY(-2px);
 }
 .hero-image {
+    max-width: 400px;
     flex: 1;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -350,6 +351,6 @@ html {
     }
     
     .hero-image {
-        width: 250px;
-        height: 250px;
+        max-width: 90%;
+        min-width: 200px;
     }}
